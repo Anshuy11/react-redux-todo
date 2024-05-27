@@ -20,7 +20,7 @@ const AddTodo = () => {
         <input
         required="true"
           type="text"
-          className="border text-black mx-2 p-2 text-lg "
+          className="border  text-black mx-2 p-2 text-lg "
           placeholder="Write todo list here "
           value={add}
           onChange={(e) => setAdd(e.target.value)}
